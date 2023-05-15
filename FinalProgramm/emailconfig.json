@@ -1,0 +1,11 @@
+{
+  "smpt": {
+    "gmail": {
+      "host": "smtp.gmail.com",
+      "port": 587,
+      "email": "testworkrete@gmail.com",
+      "password": "udtrbdrfyhflskvn",
+      "ssl": true
+    }
+  }
+}
