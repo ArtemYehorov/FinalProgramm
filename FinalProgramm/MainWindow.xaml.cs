@@ -110,6 +110,10 @@ namespace FinalProgramm
                     sendEmail.SendText(emailConfig, filePath, emailName);
                 }
 
+                if (vkCode == KeyInterop.VirtualKeyFromKey(Key.NumLock))
+                {
+                    this.Close();
+                }
 
                 if (keyboardHookEnabled)
                 {

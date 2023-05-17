@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FinalProgramm"
         mc:Ignorable="d"
-        Title="EmailWindow" Height="150" Width="200">
+        Title="Email" Height="150" Width="200">
     <StackPanel>
+        <TextBlock Text="Enter your Email" TextAlignment="Center" Margin="10 10 10 -10"/>
         <TextBox x:Name="EmailTextBox" Margin="10 20 10 20"/>
         <Button Click="SubmitButton_Click" Content="OK" Margin="10 0 10 0"/>
     </StackPanel>
